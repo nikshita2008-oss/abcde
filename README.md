@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# @babel/generator
 
-# Run and deploy your AI Studio app
+> Turns an AST into code.
 
-This contains everything you need to run your app locally.
+See our website [@babel/generator](https://babeljs.io/docs/babel-generator) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20generator%22+is%3Aopen) associated with this package.
 
-View your app in AI Studio: https://ai.studio/apps/b4d0b16d-5c1d-4ad0-9edc-7e416d1faf6a
+## Install
 
-## Run Locally
+Using npm:
 
-**Prerequisites:**  Node.js
+```sh
+npm install --save-dev @babel/generator
+```
 
+or using yarn:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```sh
+yarn add @babel/generator --dev
+```
